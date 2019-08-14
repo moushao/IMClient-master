@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="home_tab_text_style">
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="style_police_dispose_text" parent="style_police_dispose_form">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="style_police_dispose_form">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="style_order_dept">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="style_police_dispose_spinner" parent="style_police_dispose_spinner_disable">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="style_police_dispose_spinner_disable" parent="style_police_dispose_spinner_address">
+        <item name="android:drawableRight">@drawable/icon_down</item>
+    </style>
+
+    <style name="style_police_dispose_spinner_address">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:background">@drawable/shape_police_dispose_background_text</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">23dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+</resources>

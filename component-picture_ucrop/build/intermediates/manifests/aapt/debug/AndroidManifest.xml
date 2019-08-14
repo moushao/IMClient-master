@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.yalantis.ucrop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="78"
+    android:versionName="V2.78" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="27" />
+
+</manifest>

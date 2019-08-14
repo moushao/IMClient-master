@@ -1,0 +1,35 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+	package
+		ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:11-39
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml:2:1-41
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		ADDED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml
+		INJECTED from E:\Workspace\IM\IMClient-master\component-picture_ucrop\src\main\AndroidManifest.xml

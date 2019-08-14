@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res"/><source path="E:\Workspace\IM\IMClient-master\component-baselib\build\generated\res\rs\debug"/><source path="E:\Workspace\IM\IMClient-master\component-baselib\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res"><file name="alertdialog_single_selector" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable\alertdialog_single_selector.xml" qualifiers="" type="drawable"/><file name="alert_dialog_left_selector" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable\alert_dialog_left_selector.xml" qualifiers="" type="drawable"/><file name="alert_dialog_right_selector" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable\alert_dialog_right_selector.xml" qualifiers="" type="drawable"/><file name="delete_zhaopian_1x" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xhdpi\delete_zhaopian_1x.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ease_search_bar_icon_normal" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xhdpi\ease_search_bar_icon_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="alert_bg" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xxhdpi\alert_bg.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="alert_btn_left_pressed" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xxhdpi\alert_btn_left_pressed.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="alert_btn_single_pressed" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xxhdpi\alert_btn_single_pressed.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="alert_trans_bg" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xxhdpi\alert_trans_bg.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="icon_grid_pull_refresh_layout" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\drawable-xxhdpi\icon_grid_pull_refresh_layout.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="dialog_buttom" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\dialog_buttom.xml" qualifiers="" type="layout"/><file name="dialog_progress" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\dialog_progress.xml" qualifiers="" type="layout"/><file name="item_select_pic" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\item_select_pic.xml" qualifiers="" type="layout"/><file name="layout_no_data" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\layout_no_data.xml" qualifiers="" type="layout"/><file name="layout_search_custom" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\layout_search_custom.xml" qualifiers="" type="layout"/><file name="layout_submit" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\layout_submit.xml" qualifiers="" type="layout"/><file name="toolbar_layout" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\toolbar_layout.xml" qualifiers="" type="layout"/><file name="view_alertdialog" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\view_alertdialog.xml" qualifiers="" type="layout"/><file name="view_alertdialog_pro_list" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\layout\view_alertdialog_pro_list.xml" qualifiers="" type="layout"/><file path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\values\attr.xml" qualifiers=""><declare-styleable name="SmoothCheckBox">
+        <attr format="integer" name="duration"/>
+        <attr format="dimension" name="stroke_width"/>
+        <attr format="color" name="color_tick"/>
+        <attr format="color" name="color_checked"/>
+        <attr format="color" name="color_unchecked"/>
+        <attr format="color" name="color_unchecked_stroke"/>
+    </declare-styleable></file><file path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\values\styles.xml" qualifiers=""><style name="NormalTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/action_sheet_blue</item>
+        <item name="colorPrimaryDark">@color/action_sheet_blue</item>
+        <item name="colorAccent">@color/action_sheet_blue</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowActionBar">false</item>
+        
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:configChanges">keyboardHidden|screenSize|orientation</item>
+        <item name="android:windowSoftInputMode">adjustPan|stateAlwaysHidden</item>
+        <item name="android:screenOrientation">portrait</item>
+        
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowShowWallpaper">false</item>
+        <item name="qmui_config_color_blue">@color/app_color_blue</item>
+        //解决项目启动时的白屏显示
+        
+        
+    </style><style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style><style name="progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="BottomDialogStyle" parent="android:Theme.Holo.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="listPreferredItemPaddingLeft">0dp</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+
+        <item name="listPreferredItemPaddingRight">0dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style><style name="LibAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/action_sheet_blue</item>
+        <item name="colorPrimaryDark">@color/action_sheet_blue</item>
+        <item name="colorAccent">@color/action_sheet_blue</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style><style name="PickerTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/action_sheet_blue</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMaxWidth">0dp</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style><style name="FilePickerTheme" parent="LibAppTheme">
+        
+        <item name="colorPrimary">@color/action_sheet_blue</item>
+        <item name="colorPrimaryDark">@color/action_sheet_blue</item>
+        <item name="colorAccent">@color/action_sheet_blue</item>
+    </style><style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowBackground">@android:color/transparent</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style></file><file name="file_paths" path="E:\Workspace\IM\IMClient-master\component-baselib\src\main\res\xml\file_paths.xml" qualifiers="" type="xml"/></source><source path="E:\Workspace\IM\IMClient-master\component-baselib\build\generated\res\rs\debug"/><source path="E:\Workspace\IM\IMClient-master\component-baselib\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\Workspace\IM\IMClient-master\component-baselib\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\Workspace\IM\IMClient-master\component-baselib\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SmoothCheckBox"><attr format="integer" name="duration"/><attr format="dimension" name="stroke_width"/><attr format="color" name="color_tick"/><attr format="color" name="color_checked"/><attr format="color" name="color_unchecked"/><attr format="color" name="color_unchecked_stroke"/></declare-styleable></configuration></mergedItems></merger>

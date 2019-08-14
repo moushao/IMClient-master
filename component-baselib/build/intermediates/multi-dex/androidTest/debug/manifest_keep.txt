@@ -1,0 +1,6 @@
+# Referenced at E:\Workspace\IM\IMClient-master\component-baselib\build\intermediates\manifest\androidTest\debug\AndroidManifest.xml:9
+-keep class android.support.test.runner.AndroidJUnitRunner { <init>(...); }
+
+# Referenced at E:\Workspace\IM\IMClient-master\component-baselib\build\intermediates\manifest\androidTest\debug\AndroidManifest.xml:68
+-keep class component.baselib.common.MyApp { <init>(...); }
+

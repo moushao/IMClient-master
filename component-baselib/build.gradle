@@ -1,0 +1,109 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //MultiDex分包方法
+        multiDexEnabled true
+
+        //ARouter路由配置
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    //防止编译的时候oom、GC
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api rootProject.ext.dependencies["appcompat_v7"]
+    testApi rootProject.ext.dependencies["junit"]
+    androidTestApi rootProject.ext.dependencies["runner"]
+    androidTestApi rootProject.ext.dependencies["espresso_core"]
+    api rootProject.ext.dependencies["support-v4"]
+    api rootProject.ext.dependencies["support-design"]
+    api rootProject.ext.dependencies["constraint_layout"]
+    api rootProject.ext.dependencies["cardview-v7"]
+    api rootProject.ext.dependencies["recyclerview-v7"]
+    api rootProject.ext.dependencies["support_annotations"]
+    //网络
+    api rootProject.ext.dependencies["retrofit2"]
+    api rootProject.ext.dependencies["converter-gson"]
+    api rootProject.ext.dependencies["adapter-rxjava2"]
+    api rootProject.ext.dependencies["rxjava2:rxandroid"]
+    api rootProject.ext.dependencies["rxjava2"]
+    //ARouter路由
+    annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
+    api rootProject.ext.dependencies["arouter_api"]
+    api rootProject.ext.dependencies["arouter_annotation"]
+    //黄油刀
+    annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
+    api rootProject.ext.dependencies["butterknife"]
+    //状态栏设置
+    api rootProject.ext.dependencies["statusbar"]
+    //图片加载框架
+    api rootProject.ext.dependencies["glide"]
+    //api rootProject.ext.dependencies["glide:okhttp3"]
+    //内存泄漏检测工具
+    debugApi rootProject.ext.dependencies["leakcanary-debug"]
+    releaseApi rootProject.ext.dependencies["leakcanary-release"]
+    //VLayout
+    api(rootProject.ext.dependencies["vlayout"]) {
+        transitive = true
+    }
+    //缓存
+    api rootProject.ext.dependencies["disklrucache"]
+    //伸缩布局
+    api rootProject.ext.dependencies["expandable-layout"]
+    //事件总线
+    api rootProject.ext.dependencies["eventbus"]
+    //手写签名
+    //api rootProject.ext.dependencies["signature-pad"]
+    //切换按钮
+    api rootProject.ext.dependencies["switchbutton"]
+    //QMUI
+    api rootProject.ext.dependencies["qmui"]
+    //加载动画框
+    api rootProject.ext.dependencies["spinkit"]
+    //文件下载
+    api rootProject.ext.dependencies["okdownload"]
+    api rootProject.ext.dependencies["okdownload-sqlite"]
+    api rootProject.ext.dependencies["okdownload-okhttp"]
+    //消息提示桥接器
+    api rootProject.ext.dependencies["badge2"]
+    //文件选择器
+    api rootProject.ext.dependencies["file_picker"]
+    //屏幕适配
+    api rootProject.ext.dependencies["autosize"]
+    //拦截器
+    api rootProject.ext.dependencies["logging-interceptor"]
+    annotationProcessor rootProject.ext.dependencies["badge-annotation"]
+    api project(':component-data')
+    api project(':component-data')
+    api project(':component-refresh')
+    api project(':component-picture_library')
+}

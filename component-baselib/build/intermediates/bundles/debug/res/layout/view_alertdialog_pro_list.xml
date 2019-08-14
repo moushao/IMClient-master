@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/pro_dialog"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="15dp"
+              android:background="@drawable/shape_white"
+
+              android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/pro_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_margin="5dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:text="标题"
+        android:textColor="@color/action_sheet_blue"
+        android:textSize="18dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/action_sheet_blue"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pro_dialog_recyc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/white">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
