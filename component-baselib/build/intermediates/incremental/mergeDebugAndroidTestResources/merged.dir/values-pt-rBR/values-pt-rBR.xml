@@ -17,27 +17,6 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
-    <string name="action_settings">Configurações</string>
-    <string name="all_files">Todos os arquivos</string>
-    <string name="all_images">Todas as imagens</string>
-    <string name="all_photos">Todas as fotos</string>
-    <string name="all_videos">Todos os vídeos</string>
-    <string formatted="false" name="attachments_num">%d</string>
-    <string formatted="false" name="attachments_title_text">(%d/%d)</string>
-    <string name="done">Pronto</string>
-    <string name="excel_title">XLS</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="images">Imagens</string>
-    <string name="no_camera_exists">Nenhum aplicativo de câmera foi detectado!</string>
-    <string name="no_files_found">Nenhum arquivo encontrado</string>
-    <string name="pdf_title">PDF</string>
-    <string name="permission_filepicker_rationale">É necessária permissão de armazenamento para acessar arquivos.</string>
-    <string name="ppt_title">PPT</string>
     <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
-    <string name="select_doc_text">Selecione um documento</string>
-    <string name="select_photo_text">Selecione um arquivo de mídia</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <string name="txt_title">TXT</string>
-    <string name="videos">Vídeos</string>
-    <string name="word_title">DOC</string>
 </resources>

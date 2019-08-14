@@ -17,24 +17,6 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
-    <string name="action_settings">Ajustes</string>
-    <string name="all_files">Todos los ficheros</string>
-    <string name="all_photos">Todas las fotos</string>
-    <string name="all_videos">Todos los vídeos</string>
-    <string formatted="false" name="attachments_num">%d</string>
-    <string formatted="false" name="attachments_title_text">(%d/%d)</string>
-    <string name="excel_title">XLS</string>
-    <string name="images">Imágenes</string>
-    <string name="no_camera_exists">No hay aplicación para abrir la cámara!</string>
-    <string name="no_files_found">No hay ficheros</string>
-    <string name="pdf_title">PDF</string>
-    <string name="permission_filepicker_rationale">Permiso de almacenamiento es necesario para acceder a los archivos.</string>
-    <string name="ppt_title">PPT</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
-    <string name="select_doc_text">Selecciona un documento</string>
-    <string name="select_photo_text">Selecciona un archivo multimedia</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
-    <string name="txt_title">TXT</string>
-    <string name="videos">Vídeos</string>
-    <string name="word_title">DOC</string>
 </resources>

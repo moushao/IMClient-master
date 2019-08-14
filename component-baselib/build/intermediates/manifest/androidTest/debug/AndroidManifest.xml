@@ -76,7 +76,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.pvirtech.police.ch.fileprovider"
+            android:authorities="component.baselib.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -121,23 +121,6 @@
             android:name="com.liulishuo.okdownload.OkDownloadProvider"
             android:authorities="component.baselib.test.com.liulishuo.okdownload"
             android:exported="false" />
-
-        <activity
-            android:name="droidninja.filepicker.FilePickerActivity"
-            android:configChanges="orientation|screenSize" />
-        <activity
-            android:name="droidninja.filepicker.MediaDetailsActivity"
-            android:configChanges="orientation|screenSize" />
-
-        <provider
-            android:name="droidninja.filepicker.utils.FilePickerProvider"
-            android:authorities="component.baselib.test.droidninja.filepicker.provider"
-            android:exported="false"
-            android:grantUriPermissions="true" >
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths" />
-        </provider>
         <provider
             android:name="me.jessyan.autosize.InitProvider"
             android:authorities="component.baselib.test.autosize-init-provider"

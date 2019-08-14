@@ -1,7 +1,6 @@
 package component.baselib.arouter;
 
 import android.app.Application;
-import android.support.v4.app.Fragment;
 
 import com.alibaba.android.arouter.launcher.ARouter;
 
@@ -22,5 +21,12 @@ public class RouterCenter {
             ARouter.openDebug();    // 开启调试模式(如果在InstantRun模式下运行，必须开启调试模式！线上版本需要关闭,否则有安全风险)
         }
         ARouter.init(app);      // 尽可能早，推荐在Application中初始化
+    }
+
+    /**
+     * 登录界面
+     */
+    public static void toCommonLogin(String tag) {
+        ARouter.getInstance().build(RouterURLS.COMMON_MAIN).withString(Constants.FROM, tag).navigation();
     }
 }

@@ -33,6 +33,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation project(':component-baselib')
+    implementation project(':module-common')
 }
 
 def releaseTime() {

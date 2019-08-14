@@ -8,26 +8,26 @@ package cn.bingoogolapple.badgeview;
 
 public final class R {
     public static final class attr {
-        public static int badge_bgColor = 0x7f04004d;
-        public static int badge_borderColor = 0x7f04004e;
-        public static int badge_borderWidth = 0x7f04004f;
-        public static int badge_dragExtra = 0x7f040050;
-        public static int badge_draggable = 0x7f040051;
-        public static int badge_gravity = 0x7f040052;
-        public static int badge_horizontalMargin = 0x7f040053;
-        public static int badge_isResumeTravel = 0x7f040054;
-        public static int badge_padding = 0x7f040055;
-        public static int badge_textColor = 0x7f040056;
-        public static int badge_textSize = 0x7f040057;
-        public static int badge_verticalMargin = 0x7f040058;
+        public static int badge_bgColor = 0x7f040047;
+        public static int badge_borderColor = 0x7f040048;
+        public static int badge_borderWidth = 0x7f040049;
+        public static int badge_dragExtra = 0x7f04004a;
+        public static int badge_draggable = 0x7f04004b;
+        public static int badge_gravity = 0x7f04004c;
+        public static int badge_horizontalMargin = 0x7f04004d;
+        public static int badge_isResumeTravel = 0x7f04004e;
+        public static int badge_padding = 0x7f04004f;
+        public static int badge_textColor = 0x7f040050;
+        public static int badge_textSize = 0x7f040051;
+        public static int badge_verticalMargin = 0x7f040052;
     }
     public static final class id {
-        public static int rightBottom = 0x7f0c010f;
-        public static int rightCenter = 0x7f0c0110;
-        public static int rightTop = 0x7f0c0111;
+        public static int rightBottom = 0x7f0c00f4;
+        public static int rightCenter = 0x7f0c00f5;
+        public static int rightTop = 0x7f0c00f6;
     }
     public static final class styleable {
-        public static int[] BGABadgeView = { 0x7f04004d, 0x7f04004e, 0x7f04004f, 0x7f040050, 0x7f040051, 0x7f040052, 0x7f040053, 0x7f040054, 0x7f040055, 0x7f040056, 0x7f040057, 0x7f040058 };
+        public static int[] BGABadgeView = { 0x7f040047, 0x7f040048, 0x7f040049, 0x7f04004a, 0x7f04004b, 0x7f04004c, 0x7f04004d, 0x7f04004e, 0x7f04004f, 0x7f040050, 0x7f040051, 0x7f040052 };
         public static int BGABadgeView_badge_bgColor = 0;
         public static int BGABadgeView_badge_borderColor = 1;
         public static int BGABadgeView_badge_borderWidth = 2;

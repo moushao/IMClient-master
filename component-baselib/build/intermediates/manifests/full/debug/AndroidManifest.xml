@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="component.baselib"
-    android:versionCode="78"
-    android:versionName="V2.78" >
+    android:versionCode="1"
+    android:versionName="V1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -84,7 +84,7 @@
         tools:replace="android:theme" >
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.pvirtech.police.ch.fileprovider"
+            android:authorities="component.baselib.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data

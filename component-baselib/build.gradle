@@ -78,7 +78,7 @@ dependencies {
     //缓存
     api rootProject.ext.dependencies["disklrucache"]
     //伸缩布局
-    api rootProject.ext.dependencies["expandable-layout"]
+    //api rootProject.ext.dependencies["expandable-layout"]
     //事件总线
     api rootProject.ext.dependencies["eventbus"]
     //手写签名
@@ -96,13 +96,12 @@ dependencies {
     //消息提示桥接器
     api rootProject.ext.dependencies["badge2"]
     //文件选择器
-    api rootProject.ext.dependencies["file_picker"]
+    //api rootProject.ext.dependencies["file_picker"]
     //屏幕适配
     api rootProject.ext.dependencies["autosize"]
     //拦截器
     api rootProject.ext.dependencies["logging-interceptor"]
     annotationProcessor rootProject.ext.dependencies["badge-annotation"]
-    api project(':component-data')
     api project(':component-data')
     api project(':component-refresh')
     api project(':component-picture_library')

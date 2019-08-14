@@ -11,9 +11,9 @@ ext {
             buildToolsVersion       : '27.0.2',
             minSdkVersion           : 17,
             targetSdkVersion        : 27,
-            versionCode             : 78,
-            versionName             : "V2.78",
-            applicationId           : "com.pvirtech.police.ch",
+            versionCode             : 1,
+            versionName             : "V1.0.0",
+            applicationId           : "com.mous.im",
 
             androidSupportSdkVersion: "27.0.2"
 

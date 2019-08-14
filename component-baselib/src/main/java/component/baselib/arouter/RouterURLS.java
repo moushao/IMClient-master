@@ -8,4 +8,13 @@ package component.baselib.arouter;
  * <br/> 时间: 2018/7/10
  */
 public interface RouterURLS {
+    /**
+     * 主界面
+     */
+    String COMMON_MAIN = "/common/MainActivity";
+    /**
+     * 登录界面
+     */
+    String COMMON_LOGIN = "/common/LoginActivity";
+
 }

@@ -10,7 +10,7 @@ android {
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        
+
         //ARouter路由配置
         javaCompileOptions {
             annotationProcessorOptions {
@@ -30,10 +30,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     api rootProject.ext.dependencies["appcompat_v7"]
     testApi rootProject.ext.dependencies["junit"]
     androidTestApi rootProject.ext.dependencies["runner"]
     androidTestApi rootProject.ext.dependencies["espresso_core"]
-    compile "com.squareup.okhttp3:okhttp:3.10.0"
 }

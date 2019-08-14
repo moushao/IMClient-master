@@ -8,6 +8,6 @@ package me.jessyan.autosize;
 
 public final class R {
     public static final class string {
-        public static int app_name = 0x7f150025;
+        public static int app_name = 0x7f150020;
     }
 }

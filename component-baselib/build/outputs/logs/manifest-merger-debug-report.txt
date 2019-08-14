@@ -196,7 +196,7 @@ ADDED from E:\Workspace\IM\IMClient-master\component-baselib\src\main\AndroidMan
 	android:grantUriPermissions
 		ADDED from E:\Workspace\IM\IMClient-master\component-baselib\src\main\AndroidManifest.xml:84:13-47
 	android:authorities
-		ADDED from E:\Workspace\IM\IMClient-master\component-baselib\src\main\AndroidManifest.xml:82:13-70
+		ADDED from E:\Workspace\IM\IMClient-master\component-baselib\src\main\AndroidManifest.xml:82:13-65
 	android:exported
 		ADDED from E:\Workspace\IM\IMClient-master\component-baselib\src\main\AndroidManifest.xml:83:13-37
 	android:name
