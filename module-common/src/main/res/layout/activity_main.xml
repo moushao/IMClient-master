@@ -30,24 +30,21 @@
                 android:gravity="center"
                 android:orientation="vertical">
 
-                <cn.bingoogolapple.badgeview.BGABadgeImageView
-                    android:id="@+id/main_tab_message_icon"
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="22dp"
                     android:layout_gravity="center"
                     android:paddingLeft="15dp"
                     android:paddingRight="15dp"
                     android:src="@drawable/icon_main_message"
-                    app:badge_gravity="rightTop"
-                    app:badge_horizontalMargin="0dp"
-                    app:badge_verticalMargin="0dp">
-                </cn.bingoogolapple.badgeview.BGABadgeImageView>
+                    />
 
                 <TextView
                     android:id="@+id/main_tab_first_page_tv"
                     style="@style/home_tab_text_style"
-                    android:text="首页"
+                    android:text="会话"
                     android:textColor="#2399E4"/>
+
             </LinearLayout>
 
 
@@ -60,33 +57,19 @@
                 android:orientation="vertical"
                 >
 
-                <TextView
-                    android:id="@+id/main_tab_message_tv"
-                    style="@style/home_tab_text_style"
-                    android:text="消息"/>
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:id="@+id/main_tab_set"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:visibility="gone">
-
                 <ImageView
-                    android:id="@+id/main_tab_set_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="22dp"
-                    android:src="@drawable/icon_main_set_nor"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:src="@drawable/icon_main_contacts_nor"
                     />
 
                 <TextView
-                    android:id="@+id/main_tab_set_tv"
+                    android:id="@+id/main_tab_message_tv"
                     style="@style/home_tab_text_style"
-                    android:text="设置"/>
+                    android:text="联系人"/>
             </LinearLayout>
 
             <LinearLayout
@@ -99,9 +82,12 @@
 
                 <ImageView
                     android:id="@+id/main_tab_me_icon"
-                    android:layout_width="22dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="22dp"
-                    android:src="@drawable/icon_main_me_nor"
+                    android:layout_gravity="center"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:src="@drawable/icon_main_mine_nor"
                     />
 
                 <TextView

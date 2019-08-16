@@ -6,7 +6,7 @@ import android.support.v4.view.ViewPager;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.mous.common.fragment.ContactsFragment;
-import com.mous.common.fragment.MainFragment;
+import com.mous.common.fragment.SessionFragment;
 import com.mous.common.fragment.MineFragment;
 
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ public class MainActivity extends BaseActivity {
 
     private void initFragment() {
         List<Fragment> fragmentList = new ArrayList<Fragment>();
-        fragmentList.add(new MainFragment());
+        fragmentList.add(new SessionFragment());
         fragmentList.add(new ContactsFragment());
         fragmentList.add(new MineFragment());
         FragmentAdapter adapter = new FragmentAdapter(getSupportFragmentManager(), fragmentList);

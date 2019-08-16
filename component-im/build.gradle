@@ -1,20 +1,16 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
 
-//    aaptOptions.cruncherEnabled = false
-//    aaptOptions.useNewCruncher = false
-
     defaultConfig {
-        applicationId rootProject.ext.android.applicationId
         minSdkVersion rootProject.ext.android.minSdkVersion
         targetSdkVersion rootProject.ext.android.targetSdkVersion
         versionCode rootProject.ext.android.versionCode
         versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        multiDexEnabled true
+
         //ARouter路由配置
         javaCompileOptions {
             annotationProcessorOptions {
@@ -22,21 +18,21 @@ android {
             }
         }
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-}
 
+}
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //ARouter路由器
+    annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
+    //黄油刀
+    annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
     implementation project(':component-baselib')
-    implementation project(':module-common')
-    implementation project(':component-im')
-}
-
-def releaseTime() {
-    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+    implementation files('libs/netty-tcp-4.1.33-1.0.jar')
 }

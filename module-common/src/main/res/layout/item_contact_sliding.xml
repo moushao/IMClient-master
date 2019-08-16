@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component.baselib.widget.SlidingView
+    android:id="@+id/session_sliding_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!--内容区域放置布局-->
+            <include
+                layout="@layout/item_session"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!--自定义侧边菜单布局-->
+
+            <TextView
+                android:id="@+id/item_session_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="删除"
+                android:textColor="#ffffff"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</component.baselib.widget.SlidingView>

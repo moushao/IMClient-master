@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+    >
+
+    <com.mous.common.widget.ConnectStatusWidget
+        android:id="@+id/session_connect_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_nor"
+        android:paddingBottom="5dp"
+        android:visibility="gone"
+        >
+    </com.mous.common.widget.ConnectStatusWidget>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/session_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/session_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+
+</LinearLayout>

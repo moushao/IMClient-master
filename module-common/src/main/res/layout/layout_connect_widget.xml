@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:background="@color/white"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingLeft="10dp"
+    >
+
+
+    <com.qmuiteam.qmui.widget.QMUILoadingView
+        android:id="@+id/connect_widget_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:color="@color/qmui_config_color_red"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        app:qmui_loading_view_size="17dp"
+        />
+
+    <ImageView
+        android:id="@+id/connect_widget_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_chat_failure"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/connect_widget_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:drawablePadding="10dp"
+        android:text="正在连接聊天服务器..."
+        android:textColor="@color/qmui_config_color_red"
+        android:visibility="gone"/>
+</LinearLayout>

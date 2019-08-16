@@ -1037,6 +1037,15 @@ public class DateUtils {
      *
      * @return
      */
+    public static String DateFormatTime(String date) {
+        return DateFormatTime(str2Date(date));
+    }
+
+    /**
+     * 日期格式化
+     *
+     * @return
+     */
     public static String DateformatTime(Date date) {
         //SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         //转换为日期
@@ -1209,4 +1218,62 @@ public class DateUtils {
         return flag;
     }
 
+    public static String DateFormatTime(Date date) {
+        //SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        //转换为日期
+        if (date == null)
+            return "";
+        long time = date.getTime();
+        if (isThisYear(date)) {//今年
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm");
+            if (isToday(date)) { //今天
+                int minute = minutesAgo(time);
+                if (minute < 60) {//1小时之内
+                    if (minute <= 3) {//一分钟之内，显示刚刚
+                        //return "";
+                        return simpleDateFormat.format(date);
+                    } else {
+                        //return minute + "分钟前";
+                        return simpleDateFormat.format(date);
+                    }
+                } else {
+                    return simpleDateFormat.format(date);
+                }
+            } else {
+                if (isYestYesterday(date)) {//昨天，显示昨天
+                    return "昨天 " + simpleDateFormat.format(date);
+                } else if (isThisWeek(date)) {//本周,显示周几
+                    String weekday = null;
+                    if (date.getDay() == 1) {
+                        weekday = "周一";
+                    }
+                    if (date.getDay() == 2) {
+                        weekday = "周二";
+                    }
+                    if (date.getDay() == 3) {
+                        weekday = "周三";
+                    }
+                    if (date.getDay() == 4) {
+                        weekday = "周四";
+                    }
+                    if (date.getDay() == 5) {
+                        weekday = "周五";
+                    }
+                    if (date.getDay() == 6) {
+                        weekday = "周六";
+                    }
+                    if (date.getDay() == 0) {
+                        weekday = "周日";
+                    }
+                    return weekday + " " + simpleDateFormat.format(date);
+                } else {
+                    SimpleDateFormat sdf = new SimpleDateFormat("MM月dd日 HH:mm");
+                    return sdf.format(date);
+                }
+            }
+        } else {
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyy年MM月dd日");
+            return sdf.format(date);
+        }
+    }
 }

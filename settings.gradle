@@ -1,4 +1,4 @@
-include ':app', ':module-common', 
+include ':app', ':module-common', ':component-im', 
         ':component-refresh', 
         ':component-picture_ucrop',
         ':component-baselib', 

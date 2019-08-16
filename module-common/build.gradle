@@ -41,6 +41,6 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
     //黄油刀
     annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]
-    implementation rootProject.ext.dependencies["badge"]
     implementation project(':component-baselib')
+    implementation project(':component-im')
 }

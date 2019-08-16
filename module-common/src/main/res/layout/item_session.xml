@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/item_session_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--<cn.bingoogolapple.badgeview.BGABadgeFrameLayout-->
+        <!--android:id="@+id/item_session_badge"-->
+        <!--android:layout_width="46dp"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:layout_marginLeft="18dp"-->
+        <!--app:badge_draggable="true"-->
+        <!--app:badge_gravity="rightTop"-->
+        <!--app:badge_horizontalMargin="0dp"-->
+        <!--app:badge_verticalMargin="0dp">-->
+
+        <ImageView
+            android:id="@+id/item_session_head"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dp"
+            android:src="@drawable/default_head_boy"/>
+        <!--</cn.bingoogolapple.badgeview.BGABadgeFrameLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/item_session_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:textColor="@color/text_color_nor"
+                android:textSize="14dp"
+                tools:text="张三"/>
+
+            <TextView
+                android:id="@+id/item_session_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:maxLines="1"
+                android:textSize="14dp"
+                tools:text="19:00"/>
+
+            <TextView
+                android:id="@+id/item_session_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_session_name"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="4dp"
+                android:maxLines="1"
+                android:textColor="#999999"
+                android:textSize="12dp"
+                tools:text="人生自古谁无死,留取丹心照汗青留取丹心照汗青留取丹心照汗青"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_nor"/>
+
+</LinearLayout>
