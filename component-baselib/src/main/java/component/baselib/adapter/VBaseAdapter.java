@@ -46,31 +46,6 @@ public class VBaseAdapter<T> extends DelegateAdapter.Adapter<VBaseHolder<T>> {
         mContext = context;
     }
 
-
-    /**
-     * <br/> 方法名称:VBaseAdapter
-     * <br/> 方法详述:构造函数
-     * <br/> 参数:<同上申明>
-     */
-    public VBaseAdapter(Context context, List<T> mDatas, int mResLayout, Class<? extends VBaseHolder> mClazz,
-                        LayoutHelper layoutHelper, ItemListener listener) {
-        if (mClazz == null) {
-            throw new RuntimeException("clazz is null,please check your params !");
-        }
-        if (mResLayout == 0) {
-            throw new RuntimeException("res is null,please check your params !");
-        }
-        this.mContext = context;
-        this.mResLayout = mResLayout;
-        this.mLayoutHelper = layoutHelper;
-        this.mMutipleHolder = mClazz;
-        this.mListener = listener;
-        this.mDatas = mDatas;
-        this.count = mDatas.size();
-        //this.mLayoutParams = new VirtualLayoutManager.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, 
-        // ViewGroup.LayoutParams.WRAP_CONTENT);
-    }
-
     /**
      * <br/> 方法名称: VBaseAdapter
      * <br/> 方法详述: 设置数据源

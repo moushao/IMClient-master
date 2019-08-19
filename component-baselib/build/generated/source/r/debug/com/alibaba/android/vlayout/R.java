@@ -18,7 +18,7 @@ public final class R {
     }
     public static final class id {
         public static int item_touch_helper_previous_elevation = 0x7f0c00a2;
-        public static int tag_layout_helper_bg = 0x7f0c0132;
+        public static int tag_layout_helper_bg = 0x7f0c0133;
     }
     public static final class styleable {
         public static int[] RecyclerView = { 0x010100f1, 0x010100c4, 0x7f0400c0, 0x7f0400c1, 0x7f0400c2, 0x7f0400c3, 0x7f0400c4, 0x7f040100, 0x7f040283, 0x7f040293, 0x7f0402b2 };

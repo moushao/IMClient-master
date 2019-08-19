@@ -144,38 +144,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-km_values-km.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
-                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
-                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
-                    }
-                },
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-km\\values-km.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1943",
-                        "endColumns": "100",
-                        "endOffsets": "2039"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-gl_values-gl.arsc.flat",
             "map": [
                 {
@@ -203,6 +171,38 @@
                         "startOffsets": "1972",
                         "endColumns": "100",
                         "endOffsets": "2068"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-km_values-km.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,308,420,507,611,729,806,883,966,1070,1175,1275,1385,1492,1600,1762,1860",
+                        "endColumns": "102,99,111,86,103,117,76,76,82,103,104,99,109,106,107,161,97,82",
+                        "endOffsets": "203,303,415,502,606,724,801,878,961,1065,1170,1270,1380,1487,1595,1757,1855,1938"
+                    }
+                },
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-km\\values-km.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1943",
+                        "endColumns": "100",
+                        "endOffsets": "2039"
                     }
                 }
             ]
@@ -979,38 +979,6 @@
             ]
         },
         {
-            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw_values-sw.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-sw\\values-sw.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1944",
-                        "endColumns": "100",
-                        "endOffsets": "2040"
-                    }
-                },
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-sw\\values-sw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,208,306,414,504,609,726,808,891,973,1074,1183,1282,1389,1498,1603,1765,1862",
-                        "endColumns": "102,97,107,89,104,116,81,82,81,100,108,98,106,108,104,161,96,81",
-                        "endOffsets": "203,301,409,499,604,721,803,886,968,1069,1178,1277,1384,1493,1598,1760,1857,1939"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
             "map": [
                 {
@@ -1043,20 +1011,10 @@
             ]
         },
         {
-            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hr_values-hr.arsc.flat",
+            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sw_values-sw.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-hr\\values-hr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,307,417,503,607,726,810,893,979,1083,1196,1302,1407,1520,1627,1796,1893",
-                        "endColumns": "104,96,109,85,103,118,83,82,85,103,112,105,104,112,106,168,96,88",
-                        "endOffsets": "205,302,412,498,602,721,805,888,974,1078,1191,1297,1402,1515,1622,1791,1888,1977"
-                    }
-                },
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-hr\\values-hr.xml",
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1067,9 +1025,51 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1982",
+                        "startOffsets": "1944",
                         "endColumns": "100",
-                        "endOffsets": "2078"
+                        "endOffsets": "2040"
+                    }
+                },
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,306,414,504,609,726,808,891,973,1074,1183,1282,1389,1498,1603,1765,1862",
+                        "endColumns": "102,97,107,89,104,116,81,82,81,100,108,98,106,108,104,161,96,81",
+                        "endOffsets": "203,301,409,499,604,721,803,886,968,1069,1178,1277,1384,1493,1598,1760,1857,1939"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hi_values-hi.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,308,418,504,606,728,805,883,973,1082,1185,1287,1397,1498,1613,1775,1876",
+                        "endColumns": "105,96,109,85,101,121,76,77,89,108,102,101,109,100,114,161,100,79",
+                        "endOffsets": "206,303,413,499,601,723,800,878,968,1077,1180,1282,1392,1493,1608,1770,1871,1951"
+                    }
+                },
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-hi\\values-hi.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1956",
+                        "endColumns": "100",
+                        "endOffsets": "2052"
                     }
                 }
             ]
@@ -1107,20 +1107,20 @@
             ]
         },
         {
-            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hi_values-hi.arsc.flat",
+            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-hr_values-hr.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-hi\\values-hi.xml",
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,211,308,418,504,606,728,805,883,973,1082,1185,1287,1397,1498,1613,1775,1876",
-                        "endColumns": "105,96,109,85,101,121,76,77,89,108,102,101,109,100,114,161,100,79",
-                        "endOffsets": "206,303,413,499,601,723,800,878,968,1077,1180,1282,1392,1493,1608,1770,1871,1951"
+                        "startOffsets": "105,210,307,417,503,607,726,810,893,979,1083,1196,1302,1407,1520,1627,1796,1893",
+                        "endColumns": "104,96,109,85,103,118,83,82,85,103,112,105,104,112,106,168,96,88",
+                        "endOffsets": "205,302,412,498,602,721,805,888,974,1078,1191,1297,1402,1515,1622,1791,1888,1977"
                     }
                 },
                 {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-hi\\values-hi.xml",
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\c68cb39b071161bbbd7d7bd63fae1dfb\\res\\values-hr\\values-hr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -1131,9 +1131,9 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1956",
+                        "startOffsets": "1982",
                         "endColumns": "100",
-                        "endOffsets": "2052"
+                        "endOffsets": "2078"
                     }
                 }
             ]
@@ -1334,6 +1334,21 @@
             ]
         },
         {
+            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-large-v4_values-large-v4.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,114,185,256,326,396,464,532,636",
+                        "endColumns": "58,70,70,69,69,67,67,103,115",
+                        "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-lo_values-lo.arsc.flat",
             "map": [
                 {
@@ -1361,21 +1376,6 @@
                         "startOffsets": "105,208,305,412,497,602,714,791,869,949,1056,1153,1251,1356,1459,1563,1720,1816",
                         "endColumns": "102,96,106,84,104,111,76,77,79,106,96,97,104,102,103,156,95,80",
                         "endOffsets": "203,300,407,492,597,709,786,864,944,1051,1148,1246,1351,1454,1558,1715,1811,1892"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "E:\\Workspace\\IM\\IMClient-master\\component-baselib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-large-v4_values-large-v4.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\Program Files (x86)\\Android Studio\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\606a8d7977354fe7162e1b5224167f55\\res\\values-large-v4\\values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
                     }
                 }
             ]

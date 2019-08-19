@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/layout_input_field"
+        layout="@layout/layout_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.mous.common.widget.MenuWidget
+        android:id="@+id/input_widget_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="200dp"
+        android:visibility="gone"
+        >
+
+    </com.mous.common.widget.MenuWidget>
+</LinearLayout>

@@ -22,9 +22,6 @@ import component.baselib.base.BaseFragment;
 import component.baselib.mvp.BasePresenter;
 import mous.component.im.netty.IMEngine;
 
-/**
- * Created by MouShao on 2019/8/14.
- */
 
 public class SessionFragment extends BaseFragment {
     @BindView(R2.id.session_connect_widget) ConnectStatusWidget mConnectWidget;

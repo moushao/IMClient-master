@@ -22,9 +22,9 @@ public final class R {
         public static int badge_verticalMargin = 0x7f040052;
     }
     public static final class id {
-        public static int rightBottom = 0x7f0c00f4;
-        public static int rightCenter = 0x7f0c00f5;
-        public static int rightTop = 0x7f0c00f6;
+        public static int rightBottom = 0x7f0c00f5;
+        public static int rightCenter = 0x7f0c00f6;
+        public static int rightTop = 0x7f0c00f7;
     }
     public static final class styleable {
         public static int[] BGABadgeView = { 0x7f040047, 0x7f040048, 0x7f040049, 0x7f04004a, 0x7f04004b, 0x7f04004c, 0x7f04004d, 0x7f04004e, 0x7f04004f, 0x7f040050, 0x7f040051, 0x7f040052 };

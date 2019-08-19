@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingBottom="6dp"
+              android:paddingTop="6dp"
+    >
+
+    <TextView
+        android:id="@+id/chat_row_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="13:38"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chat_row_time"
+        android:gravity="right"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/chat_row_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                tools:text="张三"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/chat_row_name"
+                android:layout_marginRight="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/chat_row_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@id/chat_row_bubble"
+                    android:textSize="12sp"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/chat_row_bubble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/pic_chat_row_bubble_send"
+                    android:minHeight="36dp"
+                    android:paddingTop="5dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/chat_row_file_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:maxWidth="130dp"
+                        android:minWidth="80dp"
+                        android:textColor="@color/text_color_nor"
+                        android:textSize="15dp"
+                        tools:text="fasdf sd f a sd fa sd fa s d f as df as df as dffasdf sd f a sd fa sd fa s d f as df as df as df"
+                        />
+
+                    <ImageView
+                        android:layout_width="37dp"
+                        android:layout_height="46dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/chat_row_file_name"
+                        android:src="@drawable/icon_chat_file_send"/>
+
+                    <TextView
+                        android:id="@+id/chat_row_file_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chat_row_file_name"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="13kb"
+                        android:textSize="11dp"/>
+
+                    <TextView
+                        android:id="@+id/chat_row_file_accepte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chat_row_file_name"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/chat_row_file_size"
+                        android:text="接受"
+                        android:textColor="@color/blue_500"
+                        android:textSize="12dp"
+                        android:visibility="gone"
+                        />
+
+                    <TextView
+                        android:id="@+id/chat_row_file_refuse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/chat_row_file_name"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/chat_row_file_accepte"
+                        android:text="拒绝"
+                        android:textColor="@color/action_sheet_red"
+                        android:textSize="12dp"
+                        android:visibility="gone"
+                        />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/chat_row_failure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/chat_row_bubble"
+                    android:clickable="true"
+                    android:src="@drawable/icon_chat_failure"
+                    android:visibility="gone"
+                    />
+
+
+                <ProgressBar
+                    android:id="@+id/chat_row_progress_bar"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/chat_row_bubble"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/chat_row_head"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_head_boy"/>
+    </LinearLayout>
+
+</LinearLayout>
