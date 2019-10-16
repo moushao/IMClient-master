@@ -3,6 +3,7 @@
 /* IM1 origin/master 修改的内容 */
 /*测试分支功能*/
 /*这次真的是IM1 天假的西*/
+/*为什么branch也有*/
 ext {
     isModule = false
     moduleShopMall = false
