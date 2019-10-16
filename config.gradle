@@ -4,6 +4,7 @@
 /*测试分支功能*/
 /*这次真的是IM1 天假的西*/
 /*为什么branch也有*/
+/*测试从其他分支直接pull master*/
 ext {
     isModule = false
     moduleShopMall = false
