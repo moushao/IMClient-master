@@ -1,5 +1,6 @@
 /*全局配置信息及第三方依赖统一管理*/
 /*Config*/
+/*origin/master 修改的内容 */
 ext {
     isModule = false
     moduleShopMall = false
