@@ -1,6 +1,7 @@
 /*全局配置信息及第三方依赖统一管理*/
 /*Config*/
 /* IM1 origin/master 修改的内容 */
+/*测试分支功能*/
 ext {
     isModule = false
     moduleShopMall = false
