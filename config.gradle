@@ -2,6 +2,7 @@
 /*Config*/
 /* IM1 origin/master 修改的内容 */
 /*测试分支功能*/
+/*这次真的是IM1 天假的西*/
 ext {
     isModule = false
     moduleShopMall = false
