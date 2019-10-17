@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+//apply plugin: 'android-apt'
 
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
@@ -41,9 +42,9 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     api rootProject.ext.dependencies["appcompat_v7"]
-    testApi rootProject.ext.dependencies["junit"]
-    androidTestApi rootProject.ext.dependencies["runner"]
-    androidTestApi rootProject.ext.dependencies["espresso_core"]
+    testImplementation rootProject.ext.dependencies["junit"]
+    androidTestImplementation rootProject.ext.dependencies["runner"]
+    androidTestImplementation rootProject.ext.dependencies["espresso_core"]
     api rootProject.ext.dependencies["support-v4"]
     api rootProject.ext.dependencies["support-design"]
     api rootProject.ext.dependencies["constraint_layout"]
@@ -102,7 +103,24 @@ dependencies {
     //拦截器
     api rootProject.ext.dependencies["logging-interceptor"]
     annotationProcessor rootProject.ext.dependencies["badge-annotation"]
+
+    //api rootProject.ext.dependencies["androidannotations-api"]
+    //implementation 'org.projectlombok:lombok:1.16.6'
+//    annotationProcessor(rootProject.ext.dependencies["androidannotations"], 'org.projectlombok:lombok:1.16.6')
+    //annotationProcessor rootProject.ext.dependencies["androidannotations"]
+
+    annotationProcessor "org.androidannotations:androidannotations:4.6.0"
+    api "org.androidannotations:androidannotations-api:4.6.0"
+
     api project(':component-data')
     api project(':component-refresh')
     api project(':component-picture_library')
 }
+
+//apt {  //3处添加
+//    arguments {
+//        androidManifestFile variant.outputs[0]?.processResources?.manifestFile//new style
+//        //androidManifestFile variant.processResources.manifestFile           //old style
+//        resourcePackageName "com.mous.im"                //your pakcage name
+//    }
+//}

@@ -13,10 +13,10 @@ ext {
 
 
     android = [
-            compileSdkVersion       : 27,
-            buildToolsVersion       : '27.0.2',
+            compileSdkVersion       : 28,
+            buildToolsVersion       : '28.0.3',
             minSdkVersion           : 17,
-            targetSdkVersion        : 27,
+            targetSdkVersion        : 28,
             versionCode             : 1,
             versionName             : "V1.0.0",
             applicationId           : "com.mous.im",
@@ -38,6 +38,10 @@ ext {
             "cardview-v7"                    : "com.android.support:cardview-v7:${android["androidSupportSdkVersion"]}",
             "recyclerview-v7"                : "com.android.support:recyclerview-v7:${android["androidSupportSdkVersion"]}",
 
+            //
+            "androidannotations-api"         : 'org.androidannotations:androidannotations-api:4.6.0',
+            'androidannotations'             : "org.androidannotations:androidannotations:4.6.0",
+
             //方法数超过65535解决方法64K MultiDex分包方法
             "multidex"                       : 'com.android.support:multidex:1.0.2',
 
@@ -47,8 +51,8 @@ ext {
             "arouter_annotation"             : 'com.alibaba:arouter-annotation:1.0.4',
 
             //黄油刀(由于组件化开发会采用R2的资源映射模式,8.4.0以上版本会和AS有apt的兼容性问题,建议黄油刀降低版本至8.4.0)
-            "butterknife_compiler"           : 'com.jakewharton:butterknife-compiler:8.4.0',
-            "butterknife"                    : 'com.jakewharton:butterknife:8.4.0',
+            "butterknife_compiler"           : 'com.jakewharton:butterknife-compiler:10.2.0',
+            "butterknife"                    : 'com.jakewharton:butterknife:10.2.0',
 
             //网络
             //retrofit2包含okhttp

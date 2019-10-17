@@ -38,6 +38,7 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //ARouter路由器
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     annotationProcessor rootProject.ext.dependencies["arouter_compiler"]
     //黄油刀
     annotationProcessor rootProject.ext.dependencies["butterknife_compiler"]

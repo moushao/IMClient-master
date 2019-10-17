@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/buttom_dialog"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <View
+        android:id="@+id/bottom_dialog_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#88000000"/>
+
+    <TextView
+        android:id="@+id/bottom_dialog_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="注销当前帐号"
+        android:textColor="@color/text_color_nor"
+        android:textSize="@dimen/x48"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5"
+        />
+
+    <TextView
+        android:id="@+id/bottom_dialog_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="退出系统"
+        android:textColor="@color/text_color_nor"
+        android:textSize="@dimen/x48"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e5e5e5"
+        />
+
+    <TextView
+        android:id="@+id/bottom_dialog_item_0"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/text_color_nor"
+        android:textSize="@dimen/x48"/>
+
+</LinearLayout>
